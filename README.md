@@ -1,10 +1,13 @@
 # gba_savetypes
-A quick and dirty Python3 script (not very "pythonish") to list GBA (Game Boy Advance) games which use a certain type of save.
+A quick and dirty Python3 script (not so "pythonish") to list GBA (Game Boy Advance) games which use a certain type of save.
 
 # Usage 
 ./gba_savetype.py [-h] {savetype}
 
-If no argument are passed to the script, the savetypes present in the file are listed.
+Example:
+./gba_savetype.py NONE
+
+If no argument is passed to the script, the script lists in the usage block the savetypes present in the file .
 Example:
  ./gba_savetype.py 
 usage: gba_savetype.py [-h] {EEPROM,FLASH,FLASH1M,FLASH512,NONE,SRAM}
